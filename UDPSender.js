@@ -5,8 +5,9 @@
  *          UDPSender
  *
  *      USAGE:
- *          node UDPsender.js ipAddress portNumber "message"
- *
+ *          node UDPsender.js targetIpAddress targetPortNumber "message"
+ *          node UDPListener.js 10.0.0.30 10.0.0.30 41234 "hello world"
+
  *      ENVIRONMENT:
  *          None
  *
